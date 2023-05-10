@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "title": "Skill",
+    "list": [
+      {
+        "name": "Figma",
+        "link": "https://www.figma.com/"
+      },
+      {
+        "name": "Photoshop",
+        "link": "https://www.adobe.com/id_en/products/photoshop.html"
+      },
+      {
+        "name": "HTML",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+      },
+      {
+        "name": "CSS",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+      },
+      {
+        "name": "JavaScript",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+      },
+      {
+        "name": "Bootstrap",
+        "link": "https://getbootstrap.com/"
+      },
+      {
+        "name": "TailwindCSS",
+        "link": "https://tailwindcss.com/"
+      },
+      {
+        "name": "ReactJS",
+        "link": "https://reactjs.org/"
+      },
+      {
+        "name": "Java",
+        "link": "https://www.geeksforgeeks.org/java/"
+      },
+      {
+        "name": "Python",
+        "link": "https://www.geeksforgeeks.org/python-programming-language/"
+      },
+      {
+        "name": "PHP",
+        "link": "https://www.geeksforgeeks.org/php-tutorials/"
+      },
+      {
+        "name": "Laravel",
+        "link": "https://laravel.com/"
+      },
+      {
+        "name": "MySQL",
+        "link": "https://dev.mysql.com/doc/"
+      },
+      {
+        "name": "Oracle",
+        "link": "https://www.oracle.com/database/"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Projects",
+    "list": [
+      {
+        "name": "UI UX",
+        "link": "/projects"
+      },
+      {
+        "name": "Web Design",
+        "link": "/projects"
+      },
+      {
+        "name": "Web Development",
+        "link": "/projects"
+      },
+      {
+        "name": "App Development",
+        "link": "/projects"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Social Media",
+    "list": [
+      {
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/m-hibatillah-hasanin-8562a2268"
+      },
+      {
+        "name": "Github",
+        "link": "https://github.com/hibatillah"
+      },
+      {
+        "name": "Dribbble",
+        "link": "https://dribbble.com/hibatillah"
+      },
+      {
+        "name": "Behance",
+        "link": "https://www.behance.net/mhibatil"
+      },
+      {
+        "name": "Figma",
+        "link": "https://figma.com/@hibatillah"
+      },
+      {
+        "name": "Twitter",
+        "link": "https://twitter.com/hbtllh"
+      },
+      {
+        "name": "Instagram",
+        "link": "https://www.instagram.com/hibat.illah"
+      },
+      {
+        "name": "Telegram",
+        "link": "https://t.me/hibatillahhabib"
+      },
+      {
+        "name": "Spotify",
+        "link": "https://open.spotify.com/user/c3cwpdi9ex699t3fu7du6581a?si=34217734a01f4f13"
+      }
+    ]
+  }
+]

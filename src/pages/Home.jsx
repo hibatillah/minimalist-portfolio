@@ -5,9 +5,9 @@ const Home = () => {
   const myTag = ['UI/UX', 'Frontend', 'Coding', 'Design', 'Web', 'Mobile', 'Javascript', 'Tailwindcss']
   
   return (
-    <div className="container mt-24 mb-12 space-y-24">
+    <main className="container mt-24 mb-12 space-y-24">
       <div>
-        <h1>Lorem, ipsum dolor.</h1>
+        <h1>M. Hibatillah Hasanin</h1>
         <p className="mt-3">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
           repellendus provident dignissimos doloribus nostrum, magni odio
@@ -31,12 +31,12 @@ const Home = () => {
           <span className="text-grey"> development and love to</span> design.
         </h1>
       </div>
-      <div className="flex flex-wrap justify-center items-center gap-x-2 gap-y-3">
+      <ul className="tag-row justify-center">
         {myTag.map((item, index) =>
           <Tag key={index} tag={item} />
         )}
-      </div>
-    </div>
+      </ul>
+    </main>
   );
 };
 

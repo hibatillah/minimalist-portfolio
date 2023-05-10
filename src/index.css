@@ -21,4 +21,18 @@
   .container {
     @apply mx-auto px-4;
   }
+  .press {
+    @apply transition-all active:scale-90;
+  }
+  .tag-row {
+    @apply flex flex-wrap items-center gap-x-2 gap-y-3;
+  }
+
+  /* card */
+  .project-card {
+    @apply w-full px-3 pt-3 pb-5 rounded-xl shadow-lg bg-white border border-profile cursor-pointer select-none press;
+  }
+  .bookmark-card {
+    @apply w-full p-3.5 flex gap-4 rounded-xl shadow-lg bg-white border border-profile cursor-pointer select-none press;
+  }
 }
