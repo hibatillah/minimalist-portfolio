@@ -32,23 +32,20 @@ export const ProjectCard = ({ project }) => {
   );
 };
 
-export const BookmarkCard = () => {
+export const BookmarkCard = ({ bookmark }) => {
   return (
     <div className="bookmark-card group/bookmark">
       <img
-        src="https://images.unsplash.com/photo-1613929728701-c97c4c4dca37?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-        alt="bookmark icon"
+        src={bookmark.icon}
         className="w-14 h-14 rounded object-cover"
       />
       <div>
-        <h2 className="line-clamp-1">dribbble.com</h2>
-        <p className="mt-1 text-sm line-clamp-2">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-          maxime dicta ipsum consectetur, quod atque!
-        </p>
+        <h2 className="line-clamp-1">{bookmark.title}</h2>
+        <p className="mt-1 text-sm line-clamp-2">{bookmark.desc}</p>
         <ul className="tag-row gap-x-1 mt-3">
-          <Tag tag="UI/UX" custom='scale-90' />
-          <Tag tag="UI/UX" custom='scale-90' />
+          {bookmark.tag.map((item, index) =>
+            <Tag tag={item} key={index} custom="scale-90" />
+          )}
         </ul>
       </div>
     </div>

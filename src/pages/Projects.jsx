@@ -15,10 +15,10 @@ const Projects = () => {
       </div>
       <ul id='projects' className="grid grid-cols-1">
         <li>
-          {/* <ProjectCard /> */}
+          {/* <ProjectCard project={project} /> */}
         </li>
         <li>
-          <BookmarkCard />
+          {/* <BookmarkCard bookmark={bookmark} /> */}
         </li>
       </ul>
     </main>
