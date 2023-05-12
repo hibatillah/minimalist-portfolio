@@ -4,16 +4,16 @@
 
 @layer base {
   p {
-    @apply text-grey;
+    @apply text-grey md:text-lg;
   }
   h1 {
-    @apply text-2xl font-bold text-dark;
+    @apply text-2xl font-bold text-dark md:text-3xl xl:text-4xl;
   }
   h2 {
     @apply text-xl font-semibold text-dark;
   }
   h6 {
-    @apply text-base text-dark;
+    @apply text-base text-dark lg:text-lg lg:font-semibold;
   }
   ::-webkit-scrollbar {
     @apply w-0 text-transparent
@@ -22,13 +22,16 @@
 
 @layer components {
   .container {
-    @apply mx-auto px-4;
+    @apply mx-auto px-4 md:px-8 lg:px-10 xl:px-16;
   }
   .press {
     @apply transition-all active:scale-90;
   }
   .tag-row {
-    @apply flex flex-wrap items-center gap-x-2 gap-y-3;
+    @apply flex flex-wrap items-center gap-x-2 gap-y-3 lg:gap-x-3;
+  }
+  .box-menu {
+    @apply w-10 h-8 grid place-items-center rounded-md border border-dark cursor-pointer select-none press hover:bg-profile/30 md:w-16 md:h-9 md:rounded-full lg:w-20 lg:h-8;
   }
 
   /* card */

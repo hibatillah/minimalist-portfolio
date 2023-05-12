@@ -31,18 +31,33 @@ const Footer = () => {
 
   return (
     <>
-      <ul className="mx-auto flex gap-4">
-        {socmed.map((item,  index) =>
+      <ul className="mx-auto flex gap-4 md:gap-6 lg:order-2 lg:mx-0 lg:gap-5">
+        {socmed.map((item, index) => (
           <li key={index} className="group/socmed">
             <a href={item.link} target="_blank" rel="noopener noreferrer">
-              <div className="w-[50px] h-[50px] grid place-items-center border border-profile rounded-full select-none press active:bg-profile/50 group-hover/socmed:-translate-y-1">
-                <img src={item.img} alt="socmed icon" className={`${item.name === 'Github' ? 'w-8' : 'w-6'} aspect-auto pointer-events-none`} />
+              <div className="w-[50px] h-[50px] grid place-items-center border border-profile rounded-full select-none press active:bg-profile/50 group-hover/socmed:-translate-y-1 md:w-14 md:h-14 lg:w-12 lg:h-12">
+                <img
+                  src={item.img}
+                  alt="socmed icon"
+                  className={`${
+                    item.name === "Github"
+                      ? "w-8 md:w-9 lg:w-8"
+                      : "w-6 md:w-7 lg:w-6"
+                  } aspect-auto pointer-events-none`}
+                />
               </div>
             </a>
           </li>
-        )}
+        ))}
       </ul>
-      <div className="mx-auto text-grey select-none">{year} &copy; hibatillah</div>
+      <div className="flex gap-8">
+        <div className="mx-auto text-grey select-none lg:order-1 lg:mx-0">
+          {year} &copy; hibatillah
+        </div>
+        <div className="hidden text-grey select-none hover:text-dark lg:block lg:order-1">
+          <a href="http://github.com/sponsors/hibatillah" target="_blank" rel="noopener noreferrer">Support</a>
+        </div>
+      </div>
     </>
   );
 };

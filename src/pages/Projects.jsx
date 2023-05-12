@@ -6,7 +6,7 @@ const Projects = () => {
   useEffect(() => {
     document.title = "hibatillah | projects";
     console.log(projects);
-  }, []);
+  },[]);
 
   return (
     <main className="container mt-14 mb-16 space-y-14">
@@ -19,7 +19,7 @@ const Projects = () => {
           consectetur adipisicing elit. Corrupti, optio?
         </p>
       </div>
-      <ul id="projects" className="grid grid-cols-1 gap-y-8">
+      <ul id="projects" className="grid grid-cols-1 gap-y-8 md:grid-cols-2 md:gap-x-6 lg:grid-cols-3">
         {projects.map((project, index) => (
           <li key={index}>
             <ProjectCard project={project} />

@@ -6,27 +6,27 @@ import { Home, Projects, Bookmarks } from "./pages";
 function App() {
   const [menu, setMenu] = useState(true);
   const handleMenu = () => setMenu(!menu);
-  
+
   return (
     <Router>
       <div className="w-full min-h-screen relative">
         <div className="container flex gap-3 pt-6 pb-5">
-        <Header handle={handleMenu} />
+          <Header handle={handleMenu} />
         </div>
         <nav
           className={`fixed top-0  ${
             menu ? "-right-full" : "right-0"
           } w-fit h-screen px-4 py-6 bg-white shadow-2xl transition-all duration-500 z-50`}
         >
-        <Navbar handle={handleMenu} />
+          <Navbar handle={handleMenu} />
         </nav>
         <Routes>
           <Route index element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/bookmarks" element={<Bookmarks />} />
         </Routes>
-        <div className="container px-8 pb-10">
-          <div className="flex flex-col gap-5 pt-6 border-t border-profile">
+        <div className="container px-8 pb-10 md:pb-5 lg:pb-8">
+          <div className="flex flex-col gap-5 pt-6 border-t border-profile md:gap-4 lg:flex-row lg:justify-between lg:items-end lg:gap-0">
             <Footer />
           </div>
         </div>

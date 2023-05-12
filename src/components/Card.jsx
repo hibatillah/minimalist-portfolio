@@ -40,7 +40,7 @@ export const BookmarkCard = ({ bookmark }) => {
         className="w-12 h-12 rounded-lg object-contain"
       />
       <div>
-        <h2 className="line-clamp-1 capitalize">{bookmark.title}</h2>
+        <h2 className="line-clamp-1 first-letter:uppercase">{bookmark.title}</h2>
         <p className="mt-1 text-sm line-clamp-2">{bookmark.desc}</p>
         <ul className="tag-row gap-x-1 mt-3">
           {bookmark.tag.map((item, index) =>
