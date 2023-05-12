@@ -23,6 +23,7 @@ const Bookmarks = () => {
   };
 
   useEffect(() => {
+    document.title = "hibatillah | bookmarks";
     console.log(bookmarks);
   }, []);
 
@@ -44,8 +45,8 @@ const Bookmarks = () => {
                 handle={tagHandler}
                 custom={`${
                   tag === activeTag
-                    ? "bg-dark text-white"
-                    : "bg-white text-dark"
+                    ? "bg-dark text-white shadow-xl"
+                    : "bg-white text-dark shadow-none"
                 } scale-90`}
               />
             </li>

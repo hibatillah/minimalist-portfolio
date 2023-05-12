@@ -5,7 +5,7 @@ const Home = () => {
   const myTag = ['UI/UX', 'Frontend', 'Coding', 'Design', 'Web', 'Mobile', 'Javascript', 'Tailwindcss']
   
   return (
-    <main className="container mt-24 mb-12 space-y-24">
+    <main className="container mt-20 mb-12 space-y-20">
       <div>
         <h1>M. Hibatillah Hasanin</h1>
         <p className="mt-3">
@@ -23,7 +23,7 @@ const Home = () => {
         <img
           src="https://images.unsplash.com/photo-1613929728701-c97c4c4dca37?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
           alt="welcome pict"
-          className="w-full aspect-video object-cover"
+          className="w-full aspect-video object-cover pointer-events-none"
         />
         <h1 className="mt-5">
           <span className="text-grey">Majoring</span> information systems <br /> 

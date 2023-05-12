@@ -35,8 +35,8 @@ const Footer = () => {
         {socmed.map((item,  index) =>
           <li key={index} className="group/socmed">
             <a href={item.link} target="_blank" rel="noopener noreferrer">
-              <div className="w-10 h-10 grid place-items-center border border-profile rounded-full select-none press active:bg-profile/50 group-hover/socmed:-translate-y-1">
-                <img src={item.img} alt="socmed icon" className={`${item.name === 'Github' ? 'w-6' : 'w-5'} aspect-auto pointer-events-none`} />
+              <div className="w-[50px] h-[50px] grid place-items-center border border-profile rounded-full select-none press active:bg-profile/50 group-hover/socmed:-translate-y-1">
+                <img src={item.img} alt="socmed icon" className={`${item.name === 'Github' ? 'w-8' : 'w-6'} aspect-auto pointer-events-none`} />
               </div>
             </a>
           </li>

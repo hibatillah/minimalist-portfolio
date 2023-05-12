@@ -4,6 +4,7 @@ import { projects } from "../db";
 
 const Projects = () => {
   useEffect(() => {
+    document.title = "hibatillah | projects";
     console.log(projects);
   }, []);
 
