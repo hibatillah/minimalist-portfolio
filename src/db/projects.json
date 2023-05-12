@@ -1,67 +1,14 @@
 [
   {
-    "label": "UI Design",
-    "labelDesc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, cumque.",
-    "list": [
-      {
-        "id": 1,
-        "label": "Web Development",
-        "name": "Rice Processing",
-        "short": "identification of rice types based on color",
-        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore fuga error accusantium est reprehenderit modi eaque quisquam nesciunt temporibus corrupti?",
-        "tech": [
-          {
-            "name": "ReactJS",
-            "version": "18.2.0"
-          },
-          {
-            "name": "TailwindCSS",
-            "version": "3.3.0"
-          }
-        ],
-        "demo": "https://hibatillah.github.io/ProjectPD",
-        "repo": "https://github.com/hibatillah/ProjectPD",
-        "img": "assets/projects/rice/preview.jpeg",
-        "about": [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore fuga error accusantium est reprehenderit modi eaque quisquam nesciunt temporibus corrupti?",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore fuga error accusantium est reprehenderit modi eaque quisquam nesciunt temporibus corrupti?",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore fuga error accusantium est reprehenderit modi eaque quisquam nesciunt temporibus corrupti?"
-        ],
-        "screenshot": [
-          "assets/projects/rice/ss1.jpeg",
-          "assets/projects/rice/ss2.jpeg",
-          "assets/projects/rice/ss3.jpeg",
-          "assets/projects/rice/ss4.jpeg"
-        ]
-      },
-      {
-        "id": 2,
-        "label": "Web Development",
-        "name": "React Calculator",
-        "short": "Simple Calculator using ReactJS",
-        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore fuga error accusantium est reprehenderit modi eaque quisquam nesciunt temporibus corrupti?",
-        "tech": [
-          {
-            "name": "ReactJS",
-            "version": "18.2.0"
-          },
-          {
-            "name": "TailwindCSS",
-            "version": "3.2.7"
-          }
-        ],
-        "demo": "https://hibatillah.github.io/ReactKalkulator",
-        "repo": "https://github.com/hibatillah/ReactKalkulator",
-        "img": "assets/projects/react-calc/preview.jpeg",
-        "about": [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore fuga error accusantium est reprehenderit modi eaque quisquam nesciunt temporibus corrupti?",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore fuga error accusantium est reprehenderit modi eaque quisquam nesciunt temporibus corrupti?"
-        ],
-        "screenshot": [
-          "assets/projects/react-calc/ss1.jpeg",
-          "assets/projects/react-calc/ss2.jpeg"
-        ]
-      }
-    ]
+    "title": "React Kalkulator",
+    "desc": "lorem ipsum dolor sit amet how to be",
+    "thumbnail": "assets/projects/react-calc/preview.jpeg",
+    "tag": ["react","tailwindcss"]
+  },
+  {
+    "title": "React Kalkulator",
+    "desc": "lorem ipsum dolor sit amet how to be",
+    "thumbnail": "assets/projects/react-calc/preview.jpeg",
+    "tag": ["react","tailwindcss"]
   }
 ]

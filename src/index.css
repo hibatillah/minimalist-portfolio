@@ -30,9 +30,9 @@
 
   /* card */
   .project-card {
-    @apply w-full px-3 pt-3 pb-5 rounded-xl shadow-lg bg-white border border-profile cursor-pointer select-none press;
+    @apply w-full px-4 pt-4 pb-5 rounded-xl shadow-lg bg-white border border-profile cursor-pointer select-none transition-all active:scale-95;
   }
   .bookmark-card {
-    @apply w-full p-3.5 flex gap-4 rounded-xl shadow-lg bg-white border border-profile cursor-pointer select-none press;
+    @apply w-full p-3.5 flex gap-4 rounded-xl shadow-lg bg-white border border-profile cursor-pointer select-none transition-all active:scale-95;
   }
 }

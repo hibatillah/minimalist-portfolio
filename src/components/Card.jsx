@@ -8,8 +8,8 @@ export const ProjectCard = ({ project }) => {
         src={project.thumbnail}
         className="w-full aspect-video rounded object-cover"
       />
-      <div className="flex items-baseline gap-3 mt-3">
-        <h2 className="line-clamp-1">{project.title}</h2>
+      <div className="flex items-baseline gap-3 mt-4">
+        <h2 className="line-clamp-1 capitalize">{project.title}</h2>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -37,10 +37,10 @@ export const BookmarkCard = ({ bookmark }) => {
     <div className="bookmark-card group/bookmark">
       <img
         src={bookmark.icon}
-        className="w-14 h-14 rounded object-cover"
+        className="w-12 h-12 rounded-lg object-contain"
       />
       <div>
-        <h2 className="line-clamp-1">{bookmark.title}</h2>
+        <h2 className="line-clamp-1 capitalize">{bookmark.title}</h2>
         <p className="mt-1 text-sm line-clamp-2">{bookmark.desc}</p>
         <ul className="tag-row gap-x-1 mt-3">
           {bookmark.tag.map((item, index) =>
