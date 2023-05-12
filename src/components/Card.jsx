@@ -5,7 +5,7 @@ export const ProjectCard = ({ project }) => {
   return (
     <div className="project-card group/project">
       <img
-        src={project.thumbnail}
+        src={project.thumbnail} alt="project thumbnail"
         className="w-full aspect-video rounded object-cover"
       />
       <div className="flex items-baseline gap-3 mt-4">
@@ -36,7 +36,7 @@ export const BookmarkCard = ({ bookmark }) => {
   return (
     <div className="bookmark-card group/bookmark">
       <img
-        src={bookmark.icon}
+        src={bookmark.icon} alt="bookmark icon"
         className="w-12 h-12 rounded-lg object-contain"
       />
       <div>
