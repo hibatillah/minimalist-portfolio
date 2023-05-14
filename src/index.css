@@ -7,13 +7,13 @@
     @apply text-grey md:text-lg;
   }
   h1 {
-    @apply text-2xl font-semibold text-dark md:text-3xl xl:text-4xl;
+    @apply text-2xl font-semibold text-dark md:text-3xl xl:text-4xl dark:text-white;
   }
   h2 {
-    @apply text-xl font-semibold text-dark;
+    @apply text-xl font-semibold text-dark dark:text-white;
   }
   h6 {
-    @apply text-base text-dark lg:text-lg lg:font-semibold;
+    @apply text-base text-dark lg:text-lg lg:font-semibold dark:text-profile;
   }
   ::-webkit-scrollbar {
     @apply w-0 text-transparent
@@ -31,14 +31,14 @@
     @apply flex flex-wrap items-center gap-x-2 gap-y-3 lg:gap-x-3;
   }
   .box-menu {
-    @apply grid w-10 h-8 border rounded-md cursor-pointer select-none place-items-center border-dark press hover:bg-profile/30 md:w-16 md:h-9 md:rounded-full lg:w-20 lg:h-8;
+    @apply grid w-10 h-8 border rounded-md cursor-pointer select-none place-items-center border-dark press hover:bg-profile/30 md:w-16 md:h-9 md:rounded-full lg:w-20 lg:h-8 dark:border-grey dark:hover:bg-grey/50;
   }
 
   /* card */
   .project-card {
-    @apply w-full px-4 pt-4 pb-5 transition-all bg-white border shadow-lg cursor-pointer select-none rounded-xl border-profile active:scale-95;
+    @apply w-full px-4 pt-4 pb-5 transition-all bg-white border shadow-lg cursor-pointer select-none rounded-xl border-profile active:scale-95 dark:bg-dark dark:border-grey/30 dark:shadow-grey/5;
   }
   .bookmark-card {
-    @apply w-full p-3.5 flex gap-4 rounded-xl shadow-lg bg-white border border-profile cursor-pointer select-none transition-all active:scale-95;
+    @apply w-full p-3.5 flex gap-4 rounded-xl shadow-lg bg-white border border-profile cursor-pointer select-none transition-all active:scale-95 dark:bg-dark dark:border-grey/30 dark:shadow-grey/5;
   }
 }

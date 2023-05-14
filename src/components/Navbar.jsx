@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { Menu } from "./";
 
-const Navbar = ({ handle }) => {
+const Navbar = ({ handle, theme }) => {
   const menu = [
     { name: "Home", link: "/" },
     { name: "Projects", link: "/projects" },
@@ -12,17 +12,17 @@ const Navbar = ({ handle }) => {
   return (
     <>
       <div className="flex gap-3">
-        <Menu handle={handle} />
+        <Menu handle={handle} theme={theme} />
       </div>
-      <ul className="mt-24 pl-4 pr-6 space-y-3">
+      <ul className="pl-4 pr-6 mt-24 space-y-3">
         {menu.map((item, index) => (
           <li key={index} className="group/menu">
             <NavLink 
               to={item.link}
-              className={({ isActive }) => isActive ? "text-dark" : "text-grey/70 hover:text-grey"}
+              className={({ isActive }) => isActive ? "text-dark dark:text-white" : "text-grey/70 hover:text-grey dark:hover:text-profile/70"}
               onClick={handle}
             >
-              <div className="flex gap-4 items-center">
+              <div className="flex items-center gap-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"

@@ -35,7 +35,7 @@ const Footer = () => {
         {socmed.map((item, index) => (
           <li key={index} className="group/socmed">
             <a href={item.link} target="_blank" rel="noopener noreferrer">
-              <div className="w-[50px] h-[50px] grid place-items-center border border-profile rounded-full select-none press active:bg-profile/50 group-hover/socmed:-translate-y-1 lg:w-12 lg:h-12">
+              <div className="w-[50px] h-[50px] grid place-items-center border border-profile rounded-full select-none press active:bg-profile/50 group-hover/socmed:-translate-y-1 lg:w-12 lg:h-12 dark:border-grey dark:active:bg-grey/50">
                 <img
                   src={item.img}
                   alt="socmed icon"
@@ -43,7 +43,7 @@ const Footer = () => {
                     item.name === "Github"
                       ? "w-8 lg:w-7"
                       : "w-6 lg:w-5"
-                  } aspect-auto pointer-events-none`}
+                  } aspect-auto pointer-events-none dark:fill-white`}
                 />
               </div>
             </a>
@@ -54,7 +54,7 @@ const Footer = () => {
         <div className="mx-auto select-none text-grey lg:order-1 lg:mx-0">
           {year} &copy; hibatillah
         </div>
-        <div className="hidden select-none text-grey hover:text-dark lg:block lg:order-1">
+        <div className="hidden select-none text-grey hover:text-dark lg:block lg:order-1 dark:hover:text-white">
           <a href="http://github.com/sponsors/hibatillah" target="_blank" rel="noopener noreferrer">Support</a>
         </div>
       </div>

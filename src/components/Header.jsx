@@ -2,7 +2,7 @@ import React from "react";
 import { Menu } from "./";
 import profilePicture from "../assets/profile.svg";
 
-const Header = ({ handle }) => {
+const Header = ({ handle, theme }) => {
   return (
     <>
       <a href="/">
@@ -12,7 +12,7 @@ const Header = ({ handle }) => {
           className="pointer-events-none select-none"
         />
       </a>
-      <Menu handle={handle} />
+      <Menu handle={handle} theme={theme} />
     </>
   );
 };

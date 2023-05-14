@@ -37,7 +37,10 @@ const Bookmarks = () => {
           ratione voluptas et reprehenderit! Lorem ipsum dolor sit amet
           consectetur adipisicing elit. Corrupti, optio?
         </p>
-        <ul id="tags" className="w-full mt-6 flex flex-wrap gap-x-0.5 gap-y-2 lg:w-2/3 xl:w-1/2">
+        <ul
+          id="tags"
+          className="w-full mt-6 flex flex-wrap gap-x-0.5 gap-y-2 lg:w-2/3 xl:w-1/2"
+        >
           {myTags.map((tag, index) => (
             <li key={index} className="cursor-pointer">
               <Tag
@@ -45,15 +48,18 @@ const Bookmarks = () => {
                 handle={tagHandler}
                 custom={`${
                   tag === activeTag
-                    ? "bg-dark text-white shadow-xl"
-                    : "bg-white text-dark shadow-none"
+                    ? "shadow-xl text-white bg-dark dark:bg-white dark:text-dark dark:shadow-grey/10"
+                    : "text-dark bg-white dark:bg-dark dark:text-white"
                 } scale-90`}
               />
             </li>
           ))}
         </ul>
       </div>
-      <ul id="bookmarks" className="grid grid-cols-1 gap-y-6 lg:grid-cols-2 md:gap-x-5 xl:grid-cols-3 lg:gap-x-4">
+      <ul
+        id="bookmarks"
+        className="grid grid-cols-1 gap-y-6 lg:grid-cols-2 md:gap-x-5 xl:grid-cols-3 lg:gap-x-4"
+      >
         {bookmarks.map((bookmark, index) => (
           <li key={index}>
             <a href={bookmark.link} target="_blank" rel="noopener noreferrer">

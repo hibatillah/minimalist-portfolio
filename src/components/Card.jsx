@@ -6,15 +6,15 @@ export const ProjectCard = ({ project }) => {
     <div className="project-card group/project">
       <img
         src={project.thumbnail} alt="project thumbnail"
-        className="w-full aspect-video rounded object-cover"
+        className="object-cover w-full rounded aspect-video"
       />
       <div className="flex items-baseline gap-3 mt-4">
-        <h2 className="line-clamp-1 capitalize">{project.title}</h2>
+        <h2 className="capitalize line-clamp-1">{project.title}</h2>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
-          class="w-4 h-4 stroke-[1.5] stroke-grey group-hover/project:stroke-2 group-hover/project:stroke-dark"
+          class="w-4 h-4 stroke-[1.5] stroke-grey group-hover/project:stroke-2 group-hover/project:stroke-dark dark:group-hover/project:stroke-white"
         >
           <path
             stroke-linecap="round"
@@ -23,7 +23,7 @@ export const ProjectCard = ({ project }) => {
           />
         </svg>
       </div>
-      <ul className="tag-row mt-2">
+      <ul className="mt-2 tag-row">
         {project.tag.map((item, index) => (
           <Tag tag={item} key={index} />
         ))}
@@ -37,12 +37,12 @@ export const BookmarkCard = ({ bookmark }) => {
     <div className="bookmark-card group/bookmark">
       <img
         src={bookmark.icon} alt="bookmark icon"
-        className="w-12 h-12 rounded-lg object-contain"
+        className="object-contain w-12 h-12 rounded-lg"
       />
       <div>
         <h2 className="line-clamp-1 first-letter:uppercase">{bookmark.title}</h2>
         <p className="mt-1 text-sm line-clamp-2">{bookmark.desc}</p>
-        <ul className="tag-row gap-x-1 mt-3">
+        <ul className="mt-3 tag-row gap-x-1">
           {bookmark.tag.map((item, index) =>
             <Tag tag={item} key={index} custom="scale-90" />
           )}
