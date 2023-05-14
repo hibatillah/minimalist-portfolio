@@ -2,5 +2,6 @@
   "emmet.preferences": {},
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
-  }
+  },
+  "cSpell.words": ["linkedin"]
 }

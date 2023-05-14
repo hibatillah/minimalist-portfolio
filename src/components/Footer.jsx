@@ -22,7 +22,7 @@ const Footer = () => {
       link: "https://github.com/hibatillah",
     },
     {
-      name: "Linkedin",
+      name: "LinkedIn",
       img: linkedin,
       link: "https://www.linkedin.com/in/m-hibatillah-hasanin-8562a2268",
     },
@@ -31,18 +31,18 @@ const Footer = () => {
 
   return (
     <>
-      <ul className="mx-auto flex gap-4 md:gap-6 lg:order-2 lg:mx-0 lg:gap-5">
+      <ul className="flex gap-4 mx-auto lg:order-2 lg:mx-0 lg:gap-3">
         {socmed.map((item, index) => (
           <li key={index} className="group/socmed">
             <a href={item.link} target="_blank" rel="noopener noreferrer">
-              <div className="w-[50px] h-[50px] grid place-items-center border border-profile rounded-full select-none press active:bg-profile/50 group-hover/socmed:-translate-y-1 md:w-14 md:h-14 lg:w-12 lg:h-12">
+              <div className="w-[50px] h-[50px] grid place-items-center border border-profile rounded-full select-none press active:bg-profile/50 group-hover/socmed:-translate-y-1 lg:w-12 lg:h-12">
                 <img
                   src={item.img}
                   alt="socmed icon"
                   className={`${
                     item.name === "Github"
-                      ? "w-8 md:w-9 lg:w-8"
-                      : "w-6 md:w-7 lg:w-6"
+                      ? "w-8 lg:w-7"
+                      : "w-6 lg:w-5"
                   } aspect-auto pointer-events-none`}
                 />
               </div>
@@ -50,11 +50,11 @@ const Footer = () => {
           </li>
         ))}
       </ul>
-      <div className="flex gap-8">
-        <div className="mx-auto text-grey select-none lg:order-1 lg:mx-0">
+      <div className="flex gap-6">
+        <div className="mx-auto select-none text-grey lg:order-1 lg:mx-0">
           {year} &copy; hibatillah
         </div>
-        <div className="hidden text-grey select-none hover:text-dark lg:block lg:order-1">
+        <div className="hidden select-none text-grey hover:text-dark lg:block lg:order-1">
           <a href="http://github.com/sponsors/hibatillah" target="_blank" rel="noopener noreferrer">Support</a>
         </div>
       </div>

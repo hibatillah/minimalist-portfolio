@@ -4,13 +4,13 @@ import { projects } from "../db";
 
 const Projects = () => {
   useEffect(() => {
-    document.title = "hibatillah | projects";
+    document.title = "Hibatillah's Projects";
     console.log(projects);
-  },[]);
+  }, []);
 
   return (
-    <main className="container mt-14 mb-16 space-y-14">
-      <div>
+    <main className="container mb-16 mt-14 space-y-14">
+      <div className="lg:w-2/3">
         <h1>Projects</h1>
         <p className="mt-3">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
@@ -19,7 +19,10 @@ const Projects = () => {
           consectetur adipisicing elit. Corrupti, optio?
         </p>
       </div>
-      <ul id="projects" className="grid grid-cols-1 gap-y-8 md:grid-cols-2 md:gap-x-6 lg:grid-cols-3">
+      <ul
+        id="projects"
+        className="grid grid-cols-1 gap-y-8 lg:grid-cols-2 md:gap-x-6 xl:grid-cols-3"
+      >
         {projects.map((project, index) => (
           <li key={index}>
             <ProjectCard project={project} />

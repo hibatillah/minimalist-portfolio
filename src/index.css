@@ -7,7 +7,7 @@
     @apply text-grey md:text-lg;
   }
   h1 {
-    @apply text-2xl font-bold text-dark md:text-3xl xl:text-4xl;
+    @apply text-2xl font-semibold text-dark md:text-3xl xl:text-4xl;
   }
   h2 {
     @apply text-xl font-semibold text-dark;
@@ -22,7 +22,7 @@
 
 @layer components {
   .container {
-    @apply mx-auto px-4 md:px-8 lg:px-10 xl:px-16;
+    @apply px-5 mx-auto md:px-8 lg:px-10 xl:px-12;
   }
   .press {
     @apply transition-all active:scale-90;
@@ -31,12 +31,12 @@
     @apply flex flex-wrap items-center gap-x-2 gap-y-3 lg:gap-x-3;
   }
   .box-menu {
-    @apply w-10 h-8 grid place-items-center rounded-md border border-dark cursor-pointer select-none press hover:bg-profile/30 md:w-16 md:h-9 md:rounded-full lg:w-20 lg:h-8;
+    @apply grid w-10 h-8 border rounded-md cursor-pointer select-none place-items-center border-dark press hover:bg-profile/30 md:w-16 md:h-9 md:rounded-full lg:w-20 lg:h-8;
   }
 
   /* card */
   .project-card {
-    @apply w-full px-4 pt-4 pb-5 rounded-xl shadow-lg bg-white border border-profile cursor-pointer select-none transition-all active:scale-95;
+    @apply w-full px-4 pt-4 pb-5 transition-all bg-white border shadow-lg cursor-pointer select-none rounded-xl border-profile active:scale-95;
   }
   .bookmark-card {
     @apply w-full p-3.5 flex gap-4 rounded-xl shadow-lg bg-white border border-profile cursor-pointer select-none transition-all active:scale-95;

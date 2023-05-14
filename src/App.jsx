@@ -9,7 +9,7 @@ function App() {
 
   return (
     <Router>
-      <div className="w-full min-h-screen relative">
+      <div className="relative w-full min-h-screen">
         <div className="container flex gap-3 pt-6 pb-5">
           <Header handle={handleMenu} />
         </div>
@@ -25,7 +25,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/bookmarks" element={<Bookmarks />} />
         </Routes>
-        <div className="container px-8 pb-10 md:pb-5 lg:pb-8">
+        <div className="container px-8 pb-10 md:pb-5 lg:pb-8 lg:px-10 xl:px-12">
           <div className="flex flex-col gap-5 pt-6 border-t border-profile md:gap-4 lg:flex-row lg:justify-between lg:items-end lg:gap-0">
             <Footer />
           </div>
