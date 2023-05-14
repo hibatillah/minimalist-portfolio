@@ -31,7 +31,7 @@
     @apply flex flex-wrap items-center gap-x-2 gap-y-3 lg:gap-x-3;
   }
   .box-menu {
-    @apply grid w-10 h-8 border rounded-md cursor-pointer select-none place-items-center border-dark press hover:bg-profile/30 md:w-16 md:h-9 md:rounded-full lg:w-20 lg:h-8 dark:border-grey dark:hover:bg-grey/50;
+    @apply grid w-10 h-8 border rounded-md cursor-pointer select-none place-items-center border-dark press hover:bg-profile/30 md:w-16 md:h-9 md:rounded-full lg:w-20 lg:h-8 dark:border-grey dark:hover:bg-grey/10;
   }
 
   /* card */

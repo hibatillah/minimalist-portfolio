@@ -1,7 +1,4 @@
 import React, { useEffect } from "react";
-import darkMode from "../assets/light.svg";
-import lightMode from "../assets/light.svg";
-import menuIcon from "../assets/menu.svg";
 
 const Menu = ({ handle, theme }) => {
   const activeTheme = document.documentElement.getAttribute("class");
@@ -12,14 +9,16 @@ const Menu = ({ handle, theme }) => {
   return (
     <>
       <div className="ml-auto box-menu" onClick={theme}>
-        <img
-          src={activeTheme === "dark" ? darkMode : lightMode}
-          alt="theme toggle"
-          className="pointer-events-none"
-        />
+        <div className="w-4 h-4 px-0.5 py-[2px] rounded-full md:w-5 md:h-5 bg-dark dark:bg-white">
+          <div className="w-1/2 h-full bg-white rounded-tl-full rounded-bl-full dark:bg-dark" />
+        </div>
       </div>
       <div className="box-menu" onClick={handle}>
-        <img src={menuIcon} alt="menu" className="pointer-events-none" />
+        <div className="flex flex-col h-full py-1 justify-evenly">
+          <div className="w-6 h-[1.5px] bg-dark dark:bg-white" />
+          <div className="w-6 h-[1.5px] bg-dark dark:bg-white" />
+          <div className="w-6 h-[1.5px] bg-dark dark:bg-white" />
+        </div>
       </div>
     </>
   );

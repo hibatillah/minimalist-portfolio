@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Header, Footer, Navbar } from "./components";
 import { Home, Projects, Bookmarks } from "./pages";
 
-function App() {
+const App = () => {
   const [menu, setMenu] = useState(true);
   const handleMenu = () => setMenu(!menu);
   
