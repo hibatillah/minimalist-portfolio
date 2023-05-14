@@ -16,7 +16,7 @@ const App = () => {
 
   return (
     <Router>
-      <div className="relative w-full min-h-screen dark:bg-dark">
+      <div className="relative w-full min-h-screen dark:bg-neutral-900">
         <div className="container flex gap-3 pt-6 pb-5">
           <Header handle={handleMenu} theme={handleTheme} />
         </div>

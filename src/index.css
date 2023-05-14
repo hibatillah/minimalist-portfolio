@@ -15,6 +15,9 @@
   h6 {
     @apply text-base text-dark lg:text-lg lg:font-semibold dark:text-profile;
   }
+  main {
+    @apply min-h-[calc(100dvh-23rem)] mt-16 mb-12;
+  }
   ::-webkit-scrollbar {
     @apply w-0 text-transparent
   }

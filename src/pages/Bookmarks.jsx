@@ -28,7 +28,7 @@ const Bookmarks = () => {
   }, []);
 
   return (
-    <main className="container mb-16 mt-14 space-y-14">
+    <main className="container space-y-14">
       <div>
         <h1>Bookmarks</h1>
         <p className="mt-3 lg:w-3/4">
@@ -58,7 +58,7 @@ const Bookmarks = () => {
       </div>
       <ul
         id="bookmarks"
-        className="grid grid-cols-1 gap-y-6 lg:grid-cols-2 md:gap-x-5 xl:grid-cols-3 lg:gap-x-4"
+        className="grid grid-cols-1 gap-y-6 md:grid-cols-2 md:gap-x-5 xl:grid-cols-3 lg:gap-x-4"
       >
         {bookmarks.map((bookmark, index) => (
           <li key={index}>

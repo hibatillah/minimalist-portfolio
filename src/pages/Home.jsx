@@ -18,7 +18,7 @@ const Home = () => {
   ];
 
   return (
-    <main className="container mt-20 mb-12 space-y-20">
+    <main className="container space-y-20">
       <div className="lg:flex lg:items-end">
         <div>
           <h1>M. Hibatillah Hasanin</h1>

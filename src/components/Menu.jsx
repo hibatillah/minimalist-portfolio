@@ -15,9 +15,9 @@ const Menu = ({ handle, theme }) => {
       </div>
       <div className="box-menu" onClick={handle}>
         <div className="flex flex-col h-full py-1 justify-evenly">
-          <div className="w-6 h-[1.5px] bg-dark dark:bg-white" />
-          <div className="w-6 h-[1.5px] bg-dark dark:bg-white" />
-          <div className="w-6 h-[1.5px] bg-dark dark:bg-white" />
+          <div className="w-5 h-[1.5px] bg-dark md:w-6 dark:bg-white" />
+          <div className="w-5 h-[1.5px] bg-dark md:w-6 dark:bg-white" />
+          <div className="w-5 h-[1.5px] bg-dark md:w-6 dark:bg-white" />
         </div>
       </div>
     </>

@@ -9,7 +9,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <main className="container mb-16 mt-14 space-y-14">
+    <main className="container space-y-14">
       <div className="lg:w-2/3">
         <h1>Projects</h1>
         <p className="mt-3">
