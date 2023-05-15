@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { Menu } from "./";
 
-const Navbar = ({ handle, theme }) => {
+const Navbar = ({ handle }) => {
   const menu = [
     { name: "Home", link: "/" },
     { name: "Projects", link: "/projects" },
@@ -12,7 +12,7 @@ const Navbar = ({ handle, theme }) => {
   return (
     <>
       <div className="flex gap-3">
-        <Menu handle={handle} theme={theme} />
+        <Menu handle={handle} />
       </div>
       <ul className="pl-4 pr-6 mt-24 space-y-3">
         {menu.map((item, index) => (

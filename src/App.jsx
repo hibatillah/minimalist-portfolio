@@ -7,25 +7,19 @@ const App = () => {
   const [menu, setMenu] = useState(true);
   const handleMenu = () => setMenu(!menu);
   
-  const [theme, setTheme] = useState('light')
-  const handleTheme = () => {
-    setTheme(theme === "dark" ? "light" : "dark");
-    const activeTheme = document.documentElement.setAttribute('class', theme)
-    console.log("🚀 ~ file: App.jsx:13 ~ App ~ activeTheme:", activeTheme)
-  }
 
   return (
     <Router>
       <div className="relative w-full min-h-screen dark:bg-neutral-900">
         <div className="container flex gap-3 pt-6 pb-5">
-          <Header handle={handleMenu} theme={handleTheme} />
+          <Header handle={handleMenu} />
         </div>
         <nav
           className={`fixed top-0  ${
             menu ? "-right-full" : "right-0"
           } w-fit h-screen px-4 py-6 bg-white shadow-2xl transition-all duration-500 z-50 dark:bg-dark`}
         >
-          <Navbar handle={handleMenu} theme={handleTheme} />
+          <Navbar handle={handleMenu} />
         </nav>
         <Routes>
           <Route index element={<Home />} />
