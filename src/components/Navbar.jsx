@@ -11,10 +11,10 @@ const Navbar = ({ handle }) => {
 
   return (
     <>
-      <div className="flex gap-3">
+      <div className="flex gap-3 md:hidden">
         <Menu handle={handle} />
       </div>
-      <ul className="pl-4 pr-6 mt-24 space-y-3">
+      <ul className="pl-4 pr-6 mt-24 space-y-3 md:mt-0">
         {menu.map((item, index) => (
           <li key={index} className="group/menu">
             <NavLink 
