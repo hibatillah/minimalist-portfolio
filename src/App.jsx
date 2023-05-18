@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Header, Footer, Navbar } from "./components";
-import { Home, Projects, Bookmarks } from "./pages";
+import { Home, Projects, Bookmarks, ProjectDetail } from "./pages";
+import { projects } from "./db";
 
 const App = () => {
   const [menu, setMenu] = useState(true);
@@ -25,6 +26,12 @@ const App = () => {
         <Routes>
           <Route index element={<Home />} />
           <Route path="/projects" element={<Projects />} />
+          {projects.map((project) => (
+            <Route
+              path={`/projects/${project.id}`}
+              element={<ProjectDetail project={project} />}
+            />
+          ))}
           <Route path="/bookmarks" element={<Bookmarks />} />
         </Routes>
         <div className="container px-8 pb-10 md:pb-5 lg:pb-8 lg:px-10 xl:px-12">

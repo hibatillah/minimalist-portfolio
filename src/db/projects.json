@@ -1,23 +1,33 @@
 [
   {
+    "id": 1,
+    "title": "React Kalkulator",
+    "desc": "lorem ipsum dolor sit amet how to be, lorem ipsum dolor sit amet how to be",
+    "thumbnail": "assets/projects/react-calc/preview.jpeg",
+    "tag": ["react","tailwindcss"],
+    "image": [
+      "assets/projects/react-calc/ss1.jpeg",
+      "assets/projects/react-calc/ss2.jpeg"
+    ],
+    "demo": "https://hibatillah.github.io/ReactKalkulator",
+    "source": "https://github.com/hibatillah/ReactKalkulator"
+  },
+  {
+    "id": 2,
     "title": "React Kalkulator",
     "desc": "lorem ipsum dolor sit amet how to be",
     "thumbnail": "assets/projects/react-calc/preview.jpeg",
     "tag": ["react","tailwindcss"]
   },
   {
+    "id": 3,
     "title": "React Kalkulator",
     "desc": "lorem ipsum dolor sit amet how to be",
     "thumbnail": "assets/projects/react-calc/preview.jpeg",
     "tag": ["react","tailwindcss"]
   },
   {
-    "title": "React Kalkulator",
-    "desc": "lorem ipsum dolor sit amet how to be",
-    "thumbnail": "assets/projects/react-calc/preview.jpeg",
-    "tag": ["react","tailwindcss"]
-  },
-  {
+    "id": 4,
     "title": "React Kalkulator",
     "desc": "lorem ipsum dolor sit amet how to be",
     "thumbnail": "assets/projects/react-calc/preview.jpeg",

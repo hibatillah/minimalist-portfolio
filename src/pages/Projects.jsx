@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import { ProjectCard } from "../components";
 import { projects } from "../db";
 
@@ -25,7 +26,9 @@ const Projects = () => {
       >
         {projects.map((project, index) => (
           <li key={index}>
-            <ProjectCard project={project} />
+            <Link to={`${project.id}`}>
+              <ProjectCard project={project} />
+            </Link>
           </li>
         ))}
       </ul>
