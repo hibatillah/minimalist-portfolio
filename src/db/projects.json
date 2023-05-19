@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "React Kalkulator",
-    "desc": "lorem ipsum dolor sit amet how to be, lorem ipsum dolor sit amet how to be",
+    "desc": "lorem ipsum dolor sit amet how to be, lorem ipsum dolor sit amet how to be. lorem ipsum dolor sit amet how to be, lorem ipsum dolor sit amet how to be",
     "thumbnail": "assets/projects/react-calc/preview.jpeg",
     "tag": ["react","tailwindcss"],
     "image": [

@@ -25,7 +25,7 @@
 
 @layer components {
   .container {
-    @apply px-5 mx-auto md:px-8 lg:px-10 xl:px-12;
+    @apply px-5 mx-auto md:px-8 lg:px-10 xl:px-32;
   }
   .press {
     @apply transition-all active:scale-90;
@@ -35,6 +35,17 @@
   }
   .box-menu {
     @apply grid w-10 h-8 border rounded-md cursor-pointer select-none place-items-center border-dark press hover:bg-profile/30 md:w-16 md:h-9 md:rounded-full lg:w-20 lg:h-8 dark:border-grey dark:hover:bg-grey/10;
+  }
+
+  /* button */
+  .btn {
+    @apply flex items-center justify-center gap-3 px-8 py-3 font-medium rounded-lg;
+  }
+  .btn-primary {
+    @apply text-white transition-all bg-dark dark:bg-white dark:text-dark hover:-translate-y-1;
+  }
+  .btn-secondary {
+    @apply transition-all bg-white border text-dark border-dark dark:bg-inherit dark:text-white dark:border-white hover:-translate-y-1;
   }
 
   /* card */
