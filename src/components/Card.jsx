@@ -43,7 +43,7 @@ export const BookmarkCard = ({ bookmark }) => {
         <h2 className="line-clamp-1 first-letter:uppercase">{bookmark.title}</h2>
         <p className="mt-1 text-sm line-clamp-2">{bookmark.desc}</p>
         <ul className="mt-3 tag-row gap-x-1">
-          {bookmark.tag.map((item, index) =>
+          {bookmark.label.map((item, index) =>
             <Tag tag={item} key={index} custom="scale-90" />
           )}
         </ul>

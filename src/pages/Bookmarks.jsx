@@ -10,24 +10,27 @@ const Bookmarks = () => {
     "patterns",
     "fonts",
     "colors",
-    "images",
+    "photos",
     "blogs",
     "tools",
     "plugins",
     "quotes",
   ];
 
-  const [activeTag, setActiveTag] = useState("images");
+  const [activeTag, setActiveTag] = useState("inspirations");
   const tagHandle = (e) => {
     setActiveTag(e.target.innerText.toLowerCase());
   };
 
-  const filteredBookmarks = bookmarks.filter((bookmark) => bookmark.tag.find((el) => el === activeTag))
+  const filteredBookmarks = bookmarks.filter((bookmark) => bookmark.label.find((el) => el === activeTag))
   
   useEffect(() => {
     document.title = "Hibatillah's Bookmarks";
+  },[]);
+  
+  useEffect(() => {
     console.log("🚀 ~ file: Bookmarks.jsx:26 ~ Bookmarks ~ filteredBookmarks:", filteredBookmarks)
-  }, [filteredBookmarks]);
+  },[filteredBookmarks]);
 
   return (
     <main className="container space-y-14">

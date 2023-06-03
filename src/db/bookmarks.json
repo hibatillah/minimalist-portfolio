@@ -1,44 +1,410 @@
 [
   {
-    "title": "Dribbble.com",
-    "desc": "dribbble is a community of designers answering that question each day. Web designers, graphic designers, illustrators, icon artists, typographers, logo designers, and other creative types share small screenshots (shots) that show their work, process, and current projects.",
+    "title": "Font Awesome",
+    "link": "https://fontawesome.com",
+    "icon": "assets/bookmarks/fontawesome.png",
+    "label": ["icons"]
+  },
+  {
+    "title": "dribbble.com",
     "link": "https://dribbble.com/",
     "icon": "assets/bookmarks/dribbble.png",
-    "tag": ["icons", "illustrations"]
+    "label": ["inspirations"]
   },
   {
     "title": "Behance.com",
-    "desc": "behance is a community of designers answering that question each day. Web designers, graphic designers, illustrators, icon artists, typographers, logo designers, and other creative types share small screenshots (shots) that show their work, process, and current projects.",
     "link": "https://behance.com/",
     "icon": "assets/bookmarks/behance.png",
-    "tag": ["icons", "illustrations"]
+    "label": ["inspirations", "mockups"]
   },
   {
     "title": "Unsplash.com",
-    "desc": "unsplah is a community of designers answering that question each day. Web designers, graphic designers, illustrators, icon artists, typographers, logo designers, and other creative types share small screenshots (shots) that show their work, process, and current projects.",
     "link": "https://unsplash.com/",
     "icon": "assets/bookmarks/unsplash.png",
-    "tag": ["images"]
+    "label": ["photos"]
   },
   {
-    "title": "Unsplash.com",
-    "desc": "unsplah is a community of designers answering that question each day. Web designers, graphic designers, illustrators, icon artists, typographers, logo designers, and other creative types share small screenshots (shots) that show their work, process, and current projects.",
-    "link": "https://unsplash.com/",
-    "icon": "assets/bookmarks/unsplash.png",
-    "tag": ["images"]
+    "title": "Awwwards.com",
+    "link": "https://awwwards.net/",
+    "icon": "assets/bookmarks/awwwards.png",
+    "label": ["inspirations"]
   },
   {
-    "title": "Unsplash.com",
-    "desc": "unsplah is a community of designers answering that question each day. Web designers, graphic designers, illustrators, icon artists, typographers, logo designers, and other creative types share small screenshots (shots) that show their work, process, and current projects.",
-    "link": "https://unsplash.com/",
-    "icon": "assets/bookmarks/unsplash.png",
-    "tag": ["images"]
+    "title": "Savee",
+    "link": "https://www.savee.it",
+    "icon": "assets/bookmarks/savee.png",
+    "label": ["inspirations"]
   },
   {
-    "title": "Unsplash.com",
-    "desc": "unsplah is a community of designers answering that question each day. Web designers, graphic designers, illustrators, icon artists, typographers, logo designers, and other creative types share small screenshots (shots) that show their work, process, and current projects.",
-    "link": "https://unsplash.com/",
-    "icon": "assets/bookmarks/unsplash.png",
-    "tag": ["images"]
+    "title": "Design Junction",
+    "link": "https://www.designjunction.xyz",
+    "icon": "assets/bookmarks/designjunction.svg",
+    "label": ["inspirations"]
+  },
+  {
+    "title": "Flaticon",
+    "link": "https://www.flaticon.com",
+    "icon": "assets/bookmarks/flaticon.png",
+    "label": ["icons", "illustrations"]
+  },
+  {
+    "title": "Icons8",
+    "link": "https://icons8.co/",
+    "icon": "assets/bookmarks/icons8.png",
+    "label": ["icons", "illustrations"]
+  },
+  {
+    "title": "Realtime Colors",
+    "link": "https://realtimecolors.com/",
+    "icon": "assets/bookmarks/realtimecolors.png",
+    "label": ["colors"]
+  },
+  {
+    "title": "The Noun Project",
+    "link": "https://thenounproject.com",
+    "icon": "assets/bookmarks/noun-projects.png",
+    "label": ["icons"]
+  },
+  {
+    "title": "Iconscout",
+    "link": "https://iconscout.com",
+    "icon": "assets/bookmarks/iconscout.png",
+    "label": ["icons"]
+  },
+  {
+    "title": "Iconfinder",
+    "link": "https://www.iconfinder.com",
+    "icon": "assets/bookmarks/iconfinder.png",
+    "label": ["icons", "illustrations"]
+  },
+  {
+    "title": "Google Icons",
+    "link": "https://fonts.google.com/icons",
+    "icon": "assets/bookmarks/google font.png",
+    "label": ["icons"]
+  },
+  {
+    "title": "Bootstrap Icons",
+    "link": "https://icons.getbootstrap.com",
+    "icon": "assets/bookmarks/bootstrap-icon.png",
+    "label": ["icons"]
+  },
+  {
+    "title": "Lordicon",
+    "link": "https://lordicon.com",
+    "icon": "assets/bookmarks/lordicon.png",
+    "label": ["icons"]
+  },
+  {
+    "title": "Iconify",
+    "link": "https://iconify.design",
+    "icon": "assets/bookmarks/iconify.png",
+    "label": ["icons"]
+  },
+  {
+    "title": "Hero Icons",
+    "link": "https://heroicons.com",
+    "icon": "assets/bookmarks/hero-icon.jpeg",
+    "label": ["icons"]
+  },
+  {
+    "title": "Feather Icons",
+    "link": "https://feathericons.com",
+    "icon": "assets/bookmarks/feather-icon.png",
+    "label": ["icons"]
+  },
+  {
+    "title": "Iconsax",
+    "link": "https://iconsax.io",
+    "icon": "assets/bookmarks/iconsax.png",
+    "label": ["icons"]
+  },
+  {
+    "title": "Lineicons",
+    "link": "https://lineicons.com/icons",
+    "icon": "assets/bookmarks/lineicons.jpg",
+    "label": ["icons"]
+  },
+  {
+    "title": "Storyset",
+    "link": "https://storyset.com",
+    "icon": "assets/bookmarks/storyset.png",
+    "label": ["illustrations"]
+  },
+  {
+    "title": "Undraw",
+    "link": "https://undraw.co",
+    "icon": "assets/bookmarks/undraw.png",
+    "label": ["illustrations"]
+  },
+  {
+    "title": "Blush Design",
+    "link": "https://blush.design",
+    "icon": "assets/bookmarks/blushdesign.png",
+    "label": ["illustrations"]
+  },
+  {
+    "title": "Drawkit",
+    "link": "https://drawkit.io",
+    "icon": "assets/bookmarks/drawkit.png",
+    "label": ["illustrations"]
+  },
+  {
+    "title": "Humaaans",
+    "link": "https://humaaans.com",
+    "icon": "assets/bookmarks/humaaans.jpg",
+    "label": ["illustrations"]
+  },
+  {
+    "title": "Open Doodles",
+    "link": "https://www.opendoodles.com",
+    "icon": "assets/bookmarks/opendoodles.png",
+    "label": ["illustrations"]
+  },
+  {
+    "title": "Craftwork",
+    "link": "https://craftwork.design",
+    "icon": "assets/bookmarks/craftwork.png",
+    "label": ["illustrations"]
+  },
+  {
+    "title": "Ouch",
+    "link": "https://icons8.com/ouch",
+    "icon": "assets/bookmarks/ouch.png",
+    "label": ["icons", "illustrations"]
+  },
+  {
+    "title": "Freepik",
+    "link": "https://www.freepik.com",
+    "icon": "assets/bookmarks/freepik.png",
+    "label": ["inspirations", "illustrations"]
+  },
+  {
+    "title": "Pexels",
+    "link": "https://pexels.com",
+    "icon": "assets/bookmarks/pexels.jpeg",
+    "label": ["photos"]
+  },
+  {
+    "title": "Pixabay",
+    "link": "https://pixabay.com",
+    "icon": "assets/bookmarks/pixabay.png",
+    "label": ["photos"]
+  },
+  {
+    "title": "StockSnap",
+    "link": "https://stocksnap.io",
+    "icon": "assets/bookmarks/stocksnap.png",
+    "label": ["photos"]
+  },
+  {
+    "title": "Gratisography",
+    "link": "https://gratisography.com",
+    "icon": "assets/bookmarks/gratisography.png",
+    "label": ["photos"]
+  },
+  {
+    "title": "Burst Shopify",
+    "link": "https://burst.shopify.com",
+    "icon": "assets/bookmarks/burstshopify.jpg",
+    "label": ["photos"]
+  },
+  {
+    "title": "Kaboompics",
+    "link": "https://kaboompics.com",
+    "icon": "assets/bookmarks/kaboompics.jpg",
+    "label": ["photos"]
+  },
+  {
+    "title": "iStock",
+    "link": "https://istockphoto.com",
+    "icon": "assets/bookmarks/istock.png",
+    "label": ["photos"]
+  },
+  {
+    "title": "Color Hunt",
+    "link": "https://colorhunt.co",
+    "icon": "assets/bookmarks/colorhunt.png",
+    "label": ["colors"]
+  },
+  {
+    "title": "Coolors",
+    "link": "https://coolors.co",
+    "icon": "assets/bookmarks/coolors.png",
+    "label": ["colors"]
+  },
+  {
+    "title": "Mesh Gradient",
+    "link": "https://meshgradient.com",
+    "icon": "assets/bookmarks/meshgradient.png",
+    "label": ["colors"]
+  },
+  {
+    "title": "Picular",
+    "link": "https://picular.co",
+    "icon": "assets/bookmarks/picular.png",
+    "label": ["colors"]
+  },
+  {
+    "title": "Happy Hues",
+    "link": "https://happyhues.co",
+    "icon": "assets/bookmarks/happyhues.png",
+    "label": ["colors"]
+  },
+  {
+    "title": "Hero Patterns",
+    "link": "https://www.heropatterns.com",
+    "icon": "assets/bookmarks/hero-pattern.png",
+    "label": ["patterns"]
+  },
+  {
+    "title": "Sharpen Design",
+    "link": "https://sharpen.design",
+    "icon": "assets/bookmarks/sharpen.jpeg",
+    "label": ["patterns"]
+  },
+  {
+    "title": "Magic Pattern",
+    "link": "https://magicpattern.design",
+    "icon": "assets/bookmarks/magic-pattern.png",
+    "label": ["patterns"]
+  },
+  {
+    "title": "Paaatterns",
+    "link": "https://products.ls.graphics/paaatterns/",
+    "icon": "assets/bookmarks/paaatterns.png",
+    "label": ["patterns"]
+  },
+  {
+    "title": "Patternify",
+    "link": "http://www.patternify.com/",
+    "icon": "assets/bookmarks/patternify.png",
+    "label": ["patterns"]
+  },
+  {
+    "title": "Tabbied",
+    "link": "https://tabbied.com/",
+    "icon": "assets/bookmarks/tabbied.svg",
+    "label": ["patterns"]
+  },
+  {
+    "title": "Super Designer",
+    "link": "http://superdesigner.co/tools/patterns",
+    "icon": "assets/bookmarks/superdesigner.png",
+    "label": ["patterns"]
+  },
+  {
+    "title": "Gradient Morph by Leonid",
+    "link": "https://gradient-morph.leon.id/",
+    "icon": "assets/bookmarks/gradient-morph.jpeg",
+    "label": ["patterns"]
+  },
+  {
+    "title": "Viswig",
+    "link": "https://viswig.com/",
+    "icon": "assets/bookmarks/viswig.png",
+    "label": ["patterns"]
+  },
+  {
+    "title": "Haikei",
+    "link": "https://app.haikei.app/",
+    "icon": "assets/bookmarks/haikei.png",
+    "label": ["patterns"]
+  },
+  {
+    "title": "Google Fonts",
+    "ilnk": "https://fonts.google.com",
+    "icon": "assets/bookmarks/google font.png",
+    "label": ["fonts"]
+  },
+  {
+    "title": "Font Squirrel",
+    "ilnk": "https://fontsquirrel.com",
+    "icon": "assets/bookmarks/font-squirrel.png",
+    "label": ["fonts"]
+  },
+  {
+    "title": "Dafont",
+    "ilnk": "https://dafont.com",
+    "icon": "assets/bookmarks/dafont.png",
+    "label": ["fonts"]
+  },
+  {
+    "title": "Type Department",
+    "ilnk": "https://type-department.com",
+    "icon": "assets/bookmarks/type-department.png",
+    "label": ["fonts"]
+  },
+  {
+    "title": "Pangram Pangram",
+    "ilnk": "https://pangrampangram.com",
+    "icon": "assets/bookmarks/pangram.png",
+    "label": ["fonts"]
+  },
+  {
+    "title": "Mockup World",
+    "link": "https://mockupworld.co",
+    "icon": "assets/bookmarks/mockupworld.jpeg",
+    "label": ["mockups"]
+  },
+  {
+    "title": "Harmonais Visual",
+    "link": "https://harmonaisvisual.com",
+    "icon": "assets/bookmarks/harmonais.jpeg",
+    "label": ["mockups"]
+  },
+  {
+    "title": "Mockup Design",
+    "link": "https://mockup-design.com",
+    "icon": "assets/bookmarks/mockup-design.png",
+    "label": ["mockups"]
+  },
+  {
+    "title": "Previewed app",
+    "link": "https://previewed.app",
+    "icon": "assets/bookmarks/previewed.jpg",
+    "label": ["mockups"]
+  },
+  {
+    "title": "Ls graphics",
+    "link": "https://www.ls.graphics/free-mockups",
+    "icon": "assets/bookmarks/lsgraphics.png",
+    "label": ["mockups"]
+  },
+  {
+    "title": "Unblast",
+    "link": "https://unblast.com",
+    "icon": "assets/bookmarks/unblast.png",
+    "label": ["mockups"]
+  },
+  {
+    "title": "Pixeden",
+    "link": "https://www.pixeden.com/psd-mock-up-templates",
+    "icon": "assets/bookmarks/pixeden.jpeg",
+    "label": ["mockups"]
+  },
+  {
+    "title": "Spline Design",
+    "link": "https://spline.design",
+    "icon": "assets/bookmarks/spline.jpeg",
+    "label": ["icons"]
+  },
+  {
+    "title": "3dicons",
+    "link": "https://3dicons.co",
+    "icon": "assets/bookmarks/3dicons.png",
+    "label": ["icons"]
+  },
+  {
+    "title": "Shapefest",
+    "link": "https://shapefest.com",
+    "icon": "assets/bookmarks/shapefest.png",
+    "label": ["icons"]
+  },
+  {
+    "title": "Iconfinder",
+    "link": "https://www.iconfinder.com",
+    "icon": "assets/bookmarks/iconfinder.png",
+    "label": ["icons"]
   }
 ]
