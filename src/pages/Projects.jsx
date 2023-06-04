@@ -13,10 +13,8 @@ const Projects = () => {
       <div className="lg:w-2/3">
         <h1>Projects</h1>
         <p className="mt-3">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-          repellendus provident dignissimos doloribus nostrum, magni odio
-          ratione voluptas et reprehenderit! Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Corrupti, optio?
+          I like to make projects from various things that have been learned.
+          Here are some projects I've done
         </p>
       </div>
       <ul

@@ -1,13 +1,13 @@
 import React from "react";
 import { Menu } from "./";
-import profilePicture from "../assets/profile.svg";
+import { profile } from "../assets";
 
 const Header = ({ handle }) => {
   return (
     <>
       <a href="/">
         <img
-          src={profilePicture}
+          src={profile}
           alt="profile"
           className="pointer-events-none select-none"
         />

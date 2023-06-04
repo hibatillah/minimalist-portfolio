@@ -36,11 +36,10 @@ const Bookmarks = () => {
     <main className="container space-y-14">
       <div>
         <h1>Bookmarks</h1>
-        <p className="mt-3 lg:w-3/4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-          repellendus provident dignissimos doloribus nostrum, magni odio
-          ratione voluptas et reprehenderit! Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Corrupti, optio?
+        <p className="mt-3 lg:w-3/5">
+          I like to keep a list of interesting and useful resources which can
+          then help me in completing various tasks. Here are some collections of
+          bookmarks that I have saved
         </p>
         <ul
           id="tags"
@@ -53,7 +52,7 @@ const Bookmarks = () => {
                 handle={tagHandle}
                 custom={`${
                   tag === activeTag
-                    ? "text-white bg-dark dark:text-black dark:bg-white shadow-xl dark:shadow-grey/10"
+                    ? "text-white bg-dark dark:text-dark dark:bg-white shadow-xl dark:shadow-grey/10"
                     : "text-dark bg-white dark:bg-dark dark:text-white"
                 } scale-90`}
               />
