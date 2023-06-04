@@ -38,7 +38,7 @@ export const ProjectCard = ({ project }) => {
           rel="noopener noreferrer"
           className="flex-none"
         >
-          <div className="px-2 py-1.5 border border-grey hover:bg-profile/50 rounded-md">
+          <div className="px-2 py-1.5 border border-grey hover:bg-profile/50 rounded-md dark:hover:bg-profile/10">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="1em"
