@@ -52,7 +52,7 @@ const Bookmarks = () => {
                 handle={tagHandle}
                 custom={`${
                   tag === activeTag
-                    ? "text-white bg-dark dark:text-dark dark:bg-white shadow-xl dark:shadow-grey/10"
+                    ? "text-white bg-dark dark:text-black dark:bg-white shadow-xl dark:shadow-grey/10"
                     : "text-dark bg-white dark:bg-dark dark:text-white"
                 } scale-90`}
               />

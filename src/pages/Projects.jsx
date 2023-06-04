@@ -14,7 +14,7 @@ const Projects = () => {
         <h1>Projects</h1>
         <p className="mt-3">
           I like to make projects from various things that have been learned.
-          Here are some projects I've done
+          Here are some projects I've done.
         </p>
       </div>
       <ul
@@ -23,7 +23,9 @@ const Projects = () => {
       >
         {projects.map((project, index) => (
           <li key={index}>
-            <ProjectCard project={project} />
+            <a href={project.demo} target="_blank" rel="noopener noreferrer">
+              <ProjectCard project={project} />
+            </a>
           </li>
         ))}
       </ul>

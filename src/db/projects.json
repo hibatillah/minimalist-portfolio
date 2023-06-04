@@ -1,26 +1,50 @@
 [
   {
-    "title": "React Kalkulator",
-    "desc": "lorem ipsum dolor sit amet how to be",
-    "thumbnail": "assets/projects/react-calc/preview.jpeg",
-    "tag": ["react","tailwindcss"]
+    "title": "Minimalist Portfolio",
+    "thumbnail": "assets/projects/minimalist-portfolio.jpeg",
+    "tag": ["react","tailwindcss"],
+    "demo": "https://hibatillah.vercel.app",
+    "source": "https://github.com/hibatillah/minimalist-portfolio"
+  },
+  {
+    "title": "Modern Portfolio",
+    "thumbnail": "assets/projects/modern-portfolio.jpeg",
+    "tag": ["react","tailwindcss"],
+    "demo": "https://hibatillah-modernportfolio.vercel.app",
+    "source": "https://github.com/hibatillah/modern-portfolio"
+  },
+  {
+    "title": "Identifikasi Jenis Beras",
+    "thumbnail": "assets/projects/jenis-beras.jpeg",
+    "tag": ["python","tailwindcss"],
+    "demo": "https://hibatillah.github.io/ProjectPD",
+    "source": "https://github.com/hibatillah/ProjectPD"
+  },
+  {
+    "title": "Web Peminjaman Ruangan",
+    "thumbnail": "assets/projects/pinjam-ruangan.jpeg",
+    "tag": ["HTML","CSS","javascript"],
+    "demo": "https://hibatillah.github.io/peminjaman-ruangan",
+    "source": "https://pinjamruangan.vercel.app"
+  },
+  {
+    "title": "Web Design Collection",
+    "thumbnail": "assets/projects/web-design.png",
+    "tag": ["HTML","tailwindcss"],
+    "source": "https://github.com/hibatillah/web-design"
   },
   {
     "title": "React Kalkulator",
-    "desc": "lorem ipsum dolor sit amet how to be",
-    "thumbnail": "assets/projects/react-calc/preview.jpeg",
-    "tag": ["react","tailwindcss"]
+    "thumbnail": "assets/projects/react-kalkulator.jpeg",
+    "tag": ["react","tailwindcss"],
+    "demo": "https://hibatillah.github.io/ReactKalkulator",
+    "source": "https://github.com/hibatillah/ReactKalkulator"
   },
   {
-    "title": "React Kalkulator",
-    "desc": "lorem ipsum dolor sit amet how to be",
-    "thumbnail": "assets/projects/react-calc/preview.jpeg",
-    "tag": ["react","tailwindcss"]
-  },
-  {
-    "title": "React Kalkulator",
-    "desc": "lorem ipsum dolor sit amet how to be",
-    "thumbnail": "assets/projects/react-calc/preview.jpeg",
-    "tag": ["react","tailwindcss"]
+    "title": "Kalkulator",
+    "thumbnail": "assets/projects/kalkulator.jpeg",
+    "tag": ["HTML","javascript","tailwindcss","bootstrap"],
+    "demo": "https://hibatillah.github.io/kalkulator",
+    "source": "https://github.com/hibatillah/kalkulator"
   }
 ]

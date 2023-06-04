@@ -6,6 +6,7 @@ import instagram from './icons/github.svg'
 import linkedin from './icons/linkedin.svg'
 import email from './icons/mail.svg'
 import menu from './icons/menu.svg'
+import codeIcon from './icons/code.svg'
 import gedung from './img/gedung.jpg'
 import art from './img/art.jpg'
 
@@ -20,4 +21,5 @@ export {
   menu,
   gedung,
   art,
+  codeIcon,
 }
