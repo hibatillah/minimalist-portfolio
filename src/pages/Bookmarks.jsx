@@ -39,7 +39,7 @@ const Bookmarks = () => {
         <p className="mt-3 lg:w-3/5">
           I like to keep a list of interesting and useful resources which can
           then help me in completing various tasks. Here are some collections of
-          bookmarks that I have saved
+          bookmarks that I have saved.
         </p>
         <ul
           id="tags"

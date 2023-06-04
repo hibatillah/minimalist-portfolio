@@ -24,8 +24,8 @@
     "title": "Web Peminjaman Ruangan",
     "thumbnail": "assets/projects/pinjam-ruangan.jpeg",
     "tag": ["HTML","CSS","javascript"],
-    "demo": "https://hibatillah.github.io/peminjaman-ruangan",
-    "source": "https://pinjamruangan.vercel.app"
+    "demo": "https://pinjamruangan.vercel.app",
+    "source": "https://github.com/hibatillah/peminjaman-ruangan"
   },
   {
     "title": "Web Design Collection",
